@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+p {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+
+}
+h1 {
+    max-width: 320px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 38.4px;
+}
+.header {
+    background-color: #222222;
+    
+}
+.header__thumb {
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 0 18px 0;
+}
+.logo {
+    margin-right: 41px;
+}
+.thumb__item:not(:last-child) {
+    margin-right: 32px;
+}
+.intro {
+    background-color: #F1E4E6;
+    height: 764px;
+}
+.intro__content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    background-image: url('../pikch/main_man.png');
+    background-repeat: no-repeat;
+    background-position: -228px bottom;
+}
+.brand {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+}
+.fashion {
+    color: #F16D7F;
+}
+.intro__content h1 {
+    padding-left: 20px;
+    border-left: 12px solid #F16D7F ;
+}
+.section {
+    padding-top: 64px;
+}
+.section__wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.women__card {
+    width: 31%;
+    height: 260px;
+    background-image: url('../pikch/for_women.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.men__card {
+    width: 31%;
+    height: 260px;
+    background-image: url('../pikch/for_men.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.kids__card {
+    width: 31%;
+    height: 260px;
+    background-image: url('../pikch/for_kids.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.accesories__card {
+    width: 100%;
+    height: 180px;
+    background-image: url('../pikch/accesories.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.section__text {
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    max-width: ;
+}
+.bigPink {
+    font-size: 24px;
+    line-height: 28.8px;
+    color: #F16D7F;
+}
+.main__slogan {
+    display: flex;
+    padding-top: 96px;
+    flex-direction: column;
+    align-items: center;
+}
+.main__cardbox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 48px;
+}
+
+.maincard {
+    height: 582px;
+    background-color: #F8F8F8;;
+}
+.maincard__text {
+    width: 314px;
+    
+}
+.bottom__wrap {
+    display: flex;
+    justify-content: center;
+    padding-top: 48.5px;
+}
+.main__bottom {
+padding: 14.5px 28.5px;
+outline: 1px solid #F16D7F;
+}
