@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+p {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+
+}
+h1 {
+    max-width: 320px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 38.4px;
+}
+h4 {
+    font-family: Lato;
+    font-size: 19.96px;
+    line-height: 24px;
+    color: #FBFBFB;
+
+}
+.header {
+    background-color: #222222;
+    
+}
+.header__thumb {
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 0 18px 0;
+}
+.logo {
+    margin-right: 41px;
+}
+.thumb__item:not(:last-child) {
+    margin-right: 32px;
+}
+
+.intro {
+    background-color: #F1E4E6;
+    height: 764px;
+}
+
+.catalog__intro{
+    background-color: #F1E4E6;
+    
+}
+.intro__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    height: 148px;
+}
+.intro__wrap h2 {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 24px;
+    line-height: 29px;
+}
+.main {
+    background-color: #FFFFFF;
+    padding: 96px 0 128px 0;
+}
+.main__wrap {
+    display: flex;
+    justify-content: space-around;
+}
+.main__card {
+    max-width: 652px;
+    max-height: 306px;
+    display: flex;
+    margin-bottom: 40px;
+}
+.main__card img {
+    max-width: 262px;
+  
+}
+.main__card:hover{
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
+    }
+.text__wrap {
+    display: flex;
+    flex-direction: column;
+    margin-left: 31px;
+}
+.text__wrap h3 {
+    max-width: 220px;
+    font-family: Lato;
+    font-size: 24px;
+    line-height: 29px;
+    color: #222222;
+    padding: 22px 0 42px;
+}
+.text__wrap p {
+    font-family: Lato;
+    font-size: 22px;
+    line-height: 26px;
+    color: #575757;
+    padding-bottom: 6px;
+
+}
+
+
+.pink {
+    color: #F16D7F;
+}
+.wrap__right {
+    display: flex;
+    flex-direction: column;
+}
+.main__input {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    gap: 21px;
+    
+}
+
+.main__input input {
+    padding: 12.5px 16px;
+}
+.main__input button {
+    padding: 15px 10px;
+    margin-top: 24px;
+    max-width: 100px;
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #4A4A4A;
+
+}
+.main__prise {
+background-color: #F5F3F3;
+margin-top: 57px;
+height: 214px;
+display: flex;
+align-items: center;
+flex-direction: column;
+
+
+}
+.main__prise button {
+    padding: 15px 41px;
+    width: 273px;
+    
+    margin-top: 39px;
+}
+.main__prise  {
+padding: 39px 0 12px 0;
+}
+.main__gap {
+   margin-left: 65px;
+  
+}
+.main__gap button {
+    padding: 16px 40px;
+    margin-right: 193px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    background-image: url('../pikch/background_beach.png');
+    height: 448px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.footer__wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.footer__p {
+display: block;
+max-width: 319px;
+font-family: Lato;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: #222224;
+
+}
+.footer__circle {
+    padding: 90px 0 14px 0;
+    
+}
+.h5__wrap {
+    padding: 150px 0 14px 0;
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 24px;
+    
+    color: #222224;
+}
+.footer__h5p {
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 32px;
+    color: #222224;
+}
+.footer__mail {
+    display: flex;
+    justify-content: center;
+}
+.footer__input {
+    border: none;
+    padding: 7px 22px;
+    background: #E1E1E1;
+    border-radius: 20px 0 0 20px;
+}
+.footer__button {
+    cursor: pointer;
+    border: none;
+    padding: 5px;
+    color: #FFFFFF;
+    background: #F16D7F;
+    border-radius: 0 20px 20px 0;
+}
+.footer__slogan {
+    text-align: center;
+}
+.footer__gap {
+    background-color: #222224;
+    margin-top: 156px;
+    
+}
+.copyright {
+    color: #FBFBFB;
+    
+}
+.gap__wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
